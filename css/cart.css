@@ -1,0 +1,270 @@
+/* #main {
+    width: 90%;
+    margin: 3% auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #box {
+    width: 47%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    position: relative;
+  }
+  
+  #head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+  }
+  #title {
+    width: 80%;
+    text-align: left;
+    padding: 0px 10px;
+    height: 100%;
+  }
+  
+  #cart {
+    width: 20%;
+    height: 100%;
+  }
+  
+  #cart > .bi {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #cart > .bi:hover {
+    color: red;
+  }
+  
+  #img {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.5s;
+    width: 85%;
+    object-fit: contain;
+    height: 200px;
+  }
+  
+  #img:hover {
+    transform: scale(1.05);
+  }
+  
+  #price {
+    margin: 20px 0 50px 0;
+    width: 100%;
+    text-align: left;
+    padding: 0px 10px;
+  }
+  #price:hover {
+    background-color: black;
+  }
+  
+  #menu {
+    width: 100%;
+    display: flex;
+    margin: 10px 0px;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-evenly;
+  }
+  #category {
+    width: 40%;
+    border: 2px solid red;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #category:hover {
+    background-color: red;
+  }
+  
+  #buybtn {
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 20px;
+    color: white;
+    width: 40%;
+    box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #buybtn:hover {
+    background-color: red;
+  }
+   */
+.bro{
+  width: 90%;
+  /* background-color: blue; */
+  overflow: hidden;
+  margin: 3% auto;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  display: flex;
+}
+
+#main {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#box {
+  width: 90%;
+  color: white;
+  border-radius: 10px;
+  box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: yellow; */
+  overflow: hidden;
+}
+
+#head {
+  width: 25%;
+  height: 180px;
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#center {
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#center>#title{
+  margin: 0px;
+}
+
+#center>#price{
+  text-align: left;
+  padding: 0;
+  font-size: 20px;
+}
+
+#center>#price:hover{
+  background-color: transparent;
+}
+
+#category {
+  width: 30%;
+  font-size: 20px;
+  display: block;
+  border: 2px solid red;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#category:hover {
+  background-color: red;
+}
+
+/* #midcenter {
+  width: 20%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: auto;
+  border: 2px solid red;
+} */
+
+#btndiv {
+  
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#minus {
+  cursor: pointer;
+  color: blue;
+  font-size: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+#qty {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#add {
+  cursor: pointer;
+  color: blue;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+}
+
+/* input{
+  text-align: center;
+} */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#qty:focus{
+    outline: none;
+}
+#plus{
+    border-left: none;
+    cursor: pointer;
+}
+
+#total{
+  width: 15%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#totalprice{
+  text-align: center;
+  font-size: 20px;
+}
+
+#totalprice:hover{
+  background-color: transparent;
+}
+
+#left {
+  width: 10%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+
+#del {
+  color: white;
+  cursor: pointer;
+}
